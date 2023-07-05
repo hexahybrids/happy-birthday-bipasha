@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat&family=Quicksand:wght@500;600&family=Raleway:wght@300&family=Tiro+Bangla&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.jumbotron {
+  background: #000000; /* fallback for old browsers */
+  background: #8a2387; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.jumbotron h2 {
+  font-family: "Cinzel", serif;
+  font-size: 3em;
+}
+
+div.jumbotron p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: aliceblue;
+}
